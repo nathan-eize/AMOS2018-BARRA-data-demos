@@ -10,6 +10,11 @@ These notebooks require access to ~100 files from the BARRA sample data and a fe
     ```>$ module use /g/data3/hh5/public/modules```
     
     ```>$ module load conda/analysis3-unstable```
+    
+    Alternatively, if you are not using the NCI conda environments, you will need to create your own. I have included the __[environement.yml](https://github.com/nathan-eize/AMOS2018-BARRA-data-demos/blob/master/conda-env/environment.yml)__  and the __[spec_file.txt](https://github.com/nathan-eize/AMOS2018-BARRA-data-demos/blob/master/conda-env/spec_file.txt)__ files in this repository. You can create your own environment using the following command but please note that these conda environment files can become quite big! 
+    
+    ```>$ $ conda create --name <env> --file <this file>```
+    
  3. Clone this repository into your working area 
     
     ```>$ git clone https://github.com/nathan-eize/AMOS2018-BARRA-data-demos.git```
